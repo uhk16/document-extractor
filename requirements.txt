@@ -1,0 +1,7 @@
+Flask
+kreuzberg
+python-magic
+requests
+Werkzeug
+gunicorn
+aiofiles
