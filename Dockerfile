@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Install Python packages with DOCX support
-RUNpip install Flask Werkzeug pytesseract Pillow pdf2image PyPDF2 python-docx
+RUN pip install Flask Werkzeug pytesseract Pillow pdf2image PyPDF2 python-docx
 
 # Copy the app
 COPY app.py .
